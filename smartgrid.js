@@ -4,8 +4,8 @@ module.exports = {
 	columns: 12,
 	offset: "30px",
 	container: {
-		maxWidth: "1260px",
-		fields: "30px"
+		maxWidth: "1200px",
+		fields: "20px"
 	},
 	breakPoints: {
 		large: {
