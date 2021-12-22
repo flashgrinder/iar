@@ -93,15 +93,9 @@
 /* Variables */
 
 :root {
-  --color-blue: #4A72CE;
-  --color-blue-opaciti-85: rgba(74, 114, 206, 0.85);
-  --color-light-blue: #5FB2D6;
-  --color-dark-blue: #43b1e0;
-  --color-dark: #555555;
-  --color-gray: #EFEFEF;
+  --color-blue: #2F89DF;
   --color-white: #FFFFFF;
-  --color-dark-gray: #A9A9A9;
-  --color-white-gray: #E5E5E5;
+  --color-dark-gray: #606060;
   --font-roboto: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-gotham: "GothamPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -132,15 +126,15 @@ img {
 /* Containers */
 
 .container {
-  max-width: 1920px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container-full {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* Hide */
@@ -169,10 +163,6 @@ img {
   background-color: var(--color-white);
 }
 
-.bg--dark {
-  background-color: var(--color-dark);
-}
-
 /* Links */
 
 .link {
@@ -184,6 +174,12 @@ img {
   color: var(--color-orange);
 }
 
+/* Block-padding */
+
+.block-padding {
+  padding: 48px 0;
+}
+
 /* Title */
 
 .title {
@@ -192,8 +188,26 @@ img {
   margin: 0;
 }
 
+.title--huge {
+  font-size: calc(45px + 55 * ((100vw - 360px) / 1080));
+}
+
+@media screen and (min-width: 1440px) {
+
+  .title--huge {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .title--huge {
+    font-size: 45px;
+  }
+}
+
 .title--big {
-  font-size: calc(16px + 29 * ((100vw - 320px) / 1120));
+  font-size: calc(16px + 29 * ((100vw - 360px) / 1080));
 }
 
 @media screen and (min-width: 1440px) {
@@ -203,7 +217,7 @@ img {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
 
   .title--big {
     font-size: 16px;
@@ -250,20 +264,8 @@ img {
   font-size: 16px;
 }
 
-.title--tiny {
-  font-size: 12px;
-}
-
-.title--orange {
-  color: var(--color-orange);
-}
-
-.title--white {
-  color: var(--color-white);
-}
-
-.title--black-gray {
-  color: var(--color-black-gray);
+.title--dark-gray {
+  color: var(--color-dark-gray);
 }
 
 .title--w-light {
@@ -291,7 +293,7 @@ img {
 }
 
 .title--indent {
-  margin: 0 0 30px 50px;
+  margin: 0 0 45px;
 }
 
 /* Text */
@@ -302,78 +304,28 @@ img {
   margin: 0;
 }
 
-.text--black-gray {
-  color: var(--color-black-gray);
-}
-
-.text--orange {
-  color: var(--color-orange);
+.text--dark-gray {
+  color: var(--color-dark-gray);
 }
 
 .text--white {
   color: var(--color-white);
 }
 
-.text--big {
-  font-size: calc(20px + 10 * ((100vw - 320px) / 1120));
-}
-
-@media screen and (min-width: 1440px) {
-
-  .text--big {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-
-  .text--big {
-    font-size: 20px;
-  }
-}
-
 .text--large {
-  font-size: calc(14px + 8 * ((100vw - 320px) / 1120));
-}
-
-@media screen and (min-width: 1440px) {
-
-  .text--large {
-    font-size: 22px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-
-  .text--large {
-    font-size: 14px;
-  }
+  font-size: 18px;
 }
 
 .text--normal {
-  font-size: calc(12px + 4 * ((100vw - 1024px) / 416));
-}
-
-@media screen and (min-width: 1440px) {
-
-  .text--normal {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-
-  .text--normal {
-    font-size: 12px;
-  }
+  font-size: 16px;
 }
 
 .text--small {
-  font-size: 12px;
+  font-size: 14px;
 }
 
-.text--tiny {
-  font-size: 10px;
+.text--w-thin {
+  font-weight: 200;
 }
 
 .text--w-light {
@@ -394,10 +346,6 @@ img {
 
 .text--w-black {
   font-weight: 900;
-}
-
-.text--italic {
-  font-style: italic;
 }
 
 .text--uppercase {
@@ -450,23 +398,23 @@ img {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1200px) {
-  .hide-medium {
-    display: none !important;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .hide-tablet {
     display: none !important;
   }
 
-  .title--indent {
-    margin: 0 0 20px 15px;
+  .block-padding {
+    padding: 40px 0;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
+  .hide-tabletSM {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -480,8 +428,16 @@ img {
   .hide-mobile {
     display: none !important;
   }
+}
 
-  .title--indent {
-    margin: 0 0 20px 0;
+@media screen and (max-width: 576px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .container-full {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
