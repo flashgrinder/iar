@@ -545,6 +545,8 @@ img {
   top: -35px;
   z-index: 3000;
   min-height: 590px;
+  width: 100%;
+  max-width: 538px;
 }
 
 .contacts__mark {
