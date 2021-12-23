@@ -529,6 +529,10 @@ img {
 
 /* Contacts */
 
+.contacts {
+  padding-bottom: 0;
+}
+
 .contacts__inner {
   position: relative;
 }
