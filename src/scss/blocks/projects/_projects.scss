@@ -1,0 +1,29 @@
+.projects__items {
+    @include row-flex();
+}
+
+.projects__card {
+    @include col();
+    @include size(3);
+    min-height: 282px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.projects__img {
+    display: block;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+.projects__action {
+    margin-top: 45px;
+    text-align: center;
+}
