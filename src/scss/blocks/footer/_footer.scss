@@ -1,0 +1,41 @@
+.footer {
+    padding: 60px 0;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer__column--one {
+    margin-left: 65px;
+}
+
+.footer__column--two {
+    margin-left: 46px;
+}
+
+.footer__actions {
+    margin-left: 43px;
+}
+
+.footer__title-col {
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-dark-gray);
+    margin-bottom: 30px;
+}
+
+.footer__info {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer__info ~ .footer__info {
+    margin-top: 15px;
+}
+
+.footer__icon-info {
+    margin-right: 10px;
+}
