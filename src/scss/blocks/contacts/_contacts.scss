@@ -1,12 +1,60 @@
-.contacts__plunk {
+.contacts__inner {
     position: relative;
+}
+
+.contacts__plunk {
+    position: absolute;
     display: inline-block;
     background: #F9F9F9;
     backdrop-filter: blur(55px);
     border-radius: 25px 25px 0px 0px;
-    padding: 174px 107px 94px;
+    padding: 174px 107px 58px;
+    right: 0;
+    top: -35px;
+    z-index: 3000;
+    min-height: 590px;
+}
+
+.contacts__mark {
+    position: absolute;
+    top: -10px;
+    right: 50px;
+}
+
+.contacts__address {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__info {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contacts__info ~ .contacts__info {
+    margin-top: 21px;
+}
+
+.contacts__icon {
+    margin-right: 13px;
+}
+
+.contacts__svg-icon {
+    display: block;
+}
+
+.contacts__action {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__button + .contacts__button {
+    margin-top: 10px;
 }
 
 .contacts__map {
-    min-height: 555px;
+    height: 100%;
+    max-height: 555px;
 }
