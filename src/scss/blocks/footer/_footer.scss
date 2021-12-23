@@ -5,6 +5,11 @@
 .footer__inner {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer__logo-img {
+    display: block;
 }
 
 .footer__column--one {
@@ -13,10 +18,6 @@
 
 .footer__column--two {
     margin-left: 46px;
-}
-
-.footer__actions {
-    margin-left: 43px;
 }
 
 .footer__title-col {
