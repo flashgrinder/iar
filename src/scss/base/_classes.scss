@@ -46,6 +46,9 @@
     &--white {
         background-color: var(--color-white);
     }
+    &--gray-milk {
+        background-color: var(--color-gray-milk);
+    }
 }
 
 /* Links */
@@ -94,6 +97,9 @@
     &--dark-gray {
 		color: var(--color-dark-gray);
 	}
+    &--dark-gray-low {
+		color: var(--color-dark-gray-low);
+	}
 	&--w-light {
 		font-weight: 300;
     }
@@ -126,6 +132,9 @@
     margin: 0;
 	&--dark-gray {
 		color: var(--color-dark-gray); 
+	}
+    &--dark-gray-low {
+		color: var(--color-dark-gray-low);
 	}
 	&--white {
 		color: var(--color-white);
