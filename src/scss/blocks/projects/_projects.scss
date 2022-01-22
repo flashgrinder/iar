@@ -1,11 +1,11 @@
 .projects__items {
-    @include row-flex();
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-auto-rows: 271px;
+    grid-gap: 25px;
 }
 
 .projects__card {
-    @include col();
-    @include size(3);
-    min-height: 282px;
     display: flex;
     justify-content: center;
     align-items: center;
