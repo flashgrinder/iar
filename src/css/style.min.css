@@ -1390,7 +1390,7 @@ button.swiper-pagination-bullet {
   height: 100%;
 }
 
-/* Page-404 */
+/* Wysiwyg */
 
 .page-404 {
   background: url("../img/bg-404.jpg") no-repeat center;
@@ -1436,6 +1436,141 @@ button.swiper-pagination-bullet {
 
 .page-404__action {
   margin-top: 45px;
+}
+
+/* Page-404 */
+
+.wysiwyg {
+  font-family: var(--font-roboto);
+  color: var(--color-dark-gray);
+}
+
+.wysiwyg h1,
+.wysiwyg h2,
+.wysiwyg h3,
+.wysiwyg h4,
+.wysiwyg h5,
+.wysiwyg h6 {
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+.wysiwyg h2 {
+  font-size: calc(20px + 5 * ((100vw - 360px) / 1080));
+}
+
+@media screen and (min-width: 1440px) {
+
+  .wysiwyg h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .wysiwyg h2 {
+    font-size: 20px;
+  }
+}
+
+.wysiwyg h3 {
+  font-size: calc(18px + 4 * ((100vw - 360px) / 1080));
+}
+
+@media screen and (min-width: 1440px) {
+
+  .wysiwyg h3 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .wysiwyg h3 {
+    font-size: 18px;
+  }
+}
+
+.wysiwyg h4 {
+  font-size: calc(16px + 2 * ((100vw - 360px) / 1080));
+}
+
+@media screen and (min-width: 1440px) {
+
+  .wysiwyg h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .wysiwyg h4 {
+    font-size: 16px;
+  }
+}
+
+.wysiwyg ul {
+  padding-left: 20px;
+  font-size: calc(14px + 4 * ((100vw - 360px) / 664));
+}
+
+@media screen and (min-width: 1024px) {
+
+  .wysiwyg ul {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .wysiwyg ul {
+    font-size: 14px;
+  }
+}
+
+.wysiwyg ul li ~ li {
+  margin-top: 20px;
+}
+
+.wysiwyg ul li {
+  position: relative;
+  list-style-type: none;
+}
+
+.wysiwyg ul li::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 10px;
+  left: -17px;
+  background: var(--color-blue);
+  border-radius: 50%;
+}
+
+.wysiwyg p {
+  margin: 20px 0;
+  font-size: calc(16px + 2 * ((100vw - 360px) / 664));
+}
+
+@media screen and (min-width: 1024px) {
+
+  .wysiwyg p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .wysiwyg p {
+    font-size: 16px;
+  }
+}
+
+.wysiwyg a {
+  text-decoration: underline;
+  color: var(--color-blue);
+  transition: ease 0.2s;
 }
 
 /* Footer */
@@ -1576,5 +1711,9 @@ button.swiper-pagination-bullet {
   .page-404__num,
   .page-404__action {
     text-align: center;
+  }
+
+  .wysiwyg ul {
+    padding-left: 20px;
   }
 }
