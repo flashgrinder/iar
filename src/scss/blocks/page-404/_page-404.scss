@@ -1,0 +1,25 @@
+.page-404 {
+    background: url('../img/bg-404.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.page-404__heading {
+    font-size: responsive 25px 65px;
+    font-range: 360px 1440px;
+}
+
+.page-404__num {
+    font-size: responsive 65px 245px;
+    font-range: 360px 1440px;
+    margin-top: 25px;
+}
+
+.page-404__action {
+    margin-top: 45px;
+}
+
+.page-404__heading,
+.page-404__num,
+.page-404__action {
+    @include mobileXS(text-align, center);
+}

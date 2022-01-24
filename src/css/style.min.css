@@ -1390,6 +1390,54 @@ button.swiper-pagination-bullet {
   height: 100%;
 }
 
+/* Page-404 */
+
+.page-404 {
+  background: url("../img/bg-404.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.page-404__heading {
+  font-size: calc(25px + 40 * ((100vw - 360px) / 1080));
+}
+
+@media screen and (min-width: 1440px) {
+
+  .page-404__heading {
+    font-size: 65px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .page-404__heading {
+    font-size: 25px;
+  }
+}
+
+.page-404__num {
+  font-size: calc(65px + 180 * ((100vw - 360px) / 1080));
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 1440px) {
+
+  .page-404__num {
+    font-size: 245px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .page-404__num {
+    font-size: 65px;
+  }
+}
+
+.page-404__action {
+  margin-top: 45px;
+}
+
 /* Footer */
 
 .footer {
@@ -1522,5 +1570,11 @@ button.swiper-pagination-bullet {
 
   .services__inner {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .page-404__heading,
+  .page-404__num,
+  .page-404__action {
+    text-align: center;
   }
 }
