@@ -1,0 +1,51 @@
+.head-screen {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.head-screen::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(18px);
+    z-index: 0;
+}
+
+.head-screen__body {
+    position: relative;
+    padding-top: 130px;
+    padding-bottom: 90px;
+}
+
+.head-screen__left-side {
+    position: relative;
+    z-index: 10;
+}
+
+.head-screen__heading {
+    line-height: 1;
+}
+
+.head-screen__descr {
+    margin-top: 50px;
+    max-width: 483px;
+}
+
+.head-screen__action {
+    margin-top: 55px;
+}
+
+.head-screen__pic {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    pointer-events: none;
+    user-select: none;
+}
