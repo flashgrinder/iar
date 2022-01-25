@@ -1,0 +1,54 @@
+.dev-goals__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 270px));
+    grid-gap: 20px;
+    justify-content: space-between;
+    margin-top: 70px;
+    @include to(1280px) {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+        margin-top: 45px;
+    }
+    @include mobile-block {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
+        grid-auto-rows: 190px;
+    }
+    @include mobileXS(justify-content, center);
+    @include mobileXSS-block {
+        grid-auto-rows: 160px;
+    }
+}
+
+.dev-goals__item {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.dev-goals__item--more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 0px 0px 218.173px #FFFFFF;
+    filter: drop-shadow(0px 0px 19.4977px rgba(0, 0, 0, 0.1));
+    cursor: pointer;
+}
+
+.dev-goals__img {
+    display: block;
+    height: 100%;
+    max-height: 145px;
+    width: 100%;
+    max-width: 270px;
+    object-fit: cover;
+    object-position: center;
+    @include to(1280px) {
+        max-height: 175px;
+        max-width: 100%;
+    }
+    @include mobile(max-height, 190px);
+    @include mobileXSS(max-height, 160px);
+}
+
+.dev-goals__item-svg {
+    margin-top: 20px;
+}
