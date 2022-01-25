@@ -1516,6 +1516,26 @@ button.swiper-pagination-bullet {
   margin-top: 20px;
 }
 
+/* Our-mission */
+
+.our-mission__inner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(320px, 484px) 30px minmax(400px, 682px);
+  grid-template-columns: minmax(320px, 484px) minmax(400px, 682px);
+  grid-gap: 30px;
+  align-items: center;
+}
+
+.our-mission__img {
+  display: block;
+  width: 100%;
+}
+
+.our-mission__action {
+  margin-top: 15px;
+}
+
 /* Wysiwyg */
 
 .page-404 {

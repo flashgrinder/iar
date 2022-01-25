@@ -1,0 +1,15 @@
+.our-mission__inner {
+    display: grid;
+    grid-template-columns: minmax(320px, 484px) minmax(400px, 682px);
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.our-mission__img {
+    display: block;
+    width: 100%;
+}
+
+.our-mission__action {
+    margin-top: 15px;
+}
