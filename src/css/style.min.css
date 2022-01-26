@@ -1763,21 +1763,36 @@ button.swiper-pagination-bullet {
 }
 
 .footer__inner {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -ms-grid-columns: minmax(200px, 288px) 25px minmax(150px, 1fr) 25px minmax(150px, 1fr);
+  grid-template-columns: minmax(200px, 288px) minmax(150px, 1fr) minmax(150px, 1fr);
+      grid-template-areas: "logo menu address";
+  grid-gap: 25px;
+}
+
+.footer__logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: logo;
 }
 
 .footer__logo-img {
   display: block;
+  max-width: 200px;
 }
 
 .footer__column--one {
-  margin-left: 65px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: menu;
 }
 
 .footer__column--two {
-  margin-left: 46px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: address;
 }
 
 .footer__title-col {
@@ -2061,6 +2076,17 @@ button.swiper-pagination-bullet {
     padding-left: 20px;
   }
 
+  .footer {
+    padding: 30px 0;
+  }
+
+  .footer__inner {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto 25px auto;
+        grid-template-areas: "logo logo" "menu address";
+  }
+
   .services__pic {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
@@ -2084,6 +2110,22 @@ button.swiper-pagination-bullet {
     -ms-grid-row-span: 1;
     -ms-grid-column: 2;
   }
+
+  .footer__logo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+
+  .footer__column--one {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+
+  .footer__column--two {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -2093,5 +2135,32 @@ button.swiper-pagination-bullet {
 
   .dev-goals__img {
     max-height: 160px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .footer__inner {
+        grid-template-areas: "logo" "menu" "address";
+  }
+
+  .footer__column {
+    width: 100%;
+  }
+
+  .footer__title-col {
+    width: 100%;
+  }
+  .footer__logo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .footer__column--one {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+  .footer__column--two {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
   }
 }
