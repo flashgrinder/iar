@@ -1084,6 +1084,10 @@ button.swiper-pagination-bullet {
 
 /* Services */
 
+.service__heading {
+  text-align: center;
+}
+
 .services__inner {
   display: -ms-grid;
   display: grid;
@@ -1156,6 +1160,10 @@ button.swiper-pagination-bullet {
 
 /* Projects */
 
+.projects__heading {
+  text-align: center;
+}
+
 .projects__items {
   display: -ms-grid;
   display: grid;
@@ -1190,6 +1198,10 @@ button.swiper-pagination-bullet {
 }
 
 /* Team */
+
+.team__heading {
+  text-align: center;
+}
 
 .team__subtitle {
   margin-bottom: 40px;
@@ -1451,6 +1463,10 @@ button.swiper-pagination-bullet {
 }
 
 /* Squad */
+
+.squad__heading {
+  text-align: center;
+}
 
 .squad__items {
   display: -ms-grid;
@@ -1929,6 +1945,10 @@ button.swiper-pagination-bullet {
     margin-top: 25px;
   }
 
+  .service__heading {
+    text-align: left;
+  }
+
   .services__inner {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
@@ -1954,9 +1974,21 @@ button.swiper-pagination-bullet {
     margin-top: 15px;
   }
 
+  .projects__heading {
+    text-align: left;
+  }
+
   .projects__items {
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     grid-auto-rows: 282px;
+  }
+
+  .team__heading {
+    text-align: left;
+  }
+
+  .squad__heading {
+    text-align: left;
   }
 
   .dev-goals__items {

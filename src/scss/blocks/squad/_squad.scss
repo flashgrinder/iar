@@ -1,3 +1,8 @@
+.squad__heading {
+    text-align: center;
+    @include mobileXS(text-align, left);
+}
+
 .squad__items {
     display: grid;
     grid-template-columns: repeat(3, minmax(250px, 350px));

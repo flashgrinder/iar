@@ -109,7 +109,7 @@
 <!-- Services -->
 <section class="services bg--white block-padding">
     <div class="services__body container">
-        <h2 class="services__heading title title--big title--dark-gray title--w-normal title--uppercase title--indent center">
+        <h2 class="services__heading title title--big title--dark-gray title--w-normal title--uppercase title--indent">
             Услуги фонда
         </h2>
         <div class="services__inner">
@@ -201,7 +201,7 @@
 <!-- Projects -->
 <section class="projects bg--white block-padding">
     <div class="projects__container container">
-        <h2 class="projects__heading title title--big title--dark-gray title--w-normal title--uppercase title--indent center">
+        <h2 class="projects__heading title title--big title--dark-gray title--w-normal title--uppercase title--indent">
             Проекты
         </h2>
         <div class="projects__body">
@@ -240,7 +240,7 @@
 <!-- Team -->
 <section class="team bg--white block-padding">
     <div class="team__body container">
-        <h2 class="team__heading title title--big title--dark-gray title--w-normal title--uppercase title--indent center">
+        <h2 class="team__heading title title--big title--dark-gray title--w-normal title--uppercase title--indent">
             Команда
         </h2>
         <p class="team__subtitle text text--large text--dark-gray text--w-light">
