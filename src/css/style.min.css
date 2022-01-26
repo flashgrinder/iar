@@ -1891,6 +1891,14 @@ button.swiper-pagination-bullet {
     display: none !important;
   }
 
+  .block-padding {
+    padding: 30px 0;
+  }
+
+  .title--indent {
+    margin: 0 0 25px;
+  }
+
   .main-slider__info-wrapp {
     top: auto;
     right: 15px;
@@ -1900,6 +1908,53 @@ button.swiper-pagination-bullet {
 
   .main-slider__pagination {
     right: 15px;
+  }
+
+  .contacts__outer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contacts__inner {
+    width: 100%;
+  }
+
+  .contacts__plunk {
+    position: relative;
+    min-height: auto;
+    max-width: 100%;
+    top: -60px;
+    background: transparent;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts__plunk::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -15px;
+    bottom: 0;
+    left: -15px;
+    background: var(--color-white);
+    border-radius: 25px 25px 0 0;
+    z-index: -1;
+  }
+
+  .contacts__mark {
+    display: none;
+  }
+
+  .contacts__action {
+    align-items: start;
+    margin-top: 30px;
+  }
+
+  .contacts__map {
+    order: -1;
   }
 
   .dev-goals__items {
@@ -1925,10 +1980,6 @@ button.swiper-pagination-bullet {
 
   .hide-mobile-xs {
     display: none !important;
-  }
-
-  .title--indent {
-    margin: 0 0 25px;
   }
 
   .main-slider__info-wrapp {
@@ -1985,6 +2036,11 @@ button.swiper-pagination-bullet {
 
   .team__heading {
     text-align: left;
+  }
+
+  .contacts__plunk::before {
+    right: -10px;
+    left: -10px;
   }
 
   .squad__heading {
