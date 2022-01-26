@@ -3,34 +3,59 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 45px 100px;
     @include large(grid-gap, 40px);
-    @include mobileXS(grid-template-columns, repeat(auto-fit, minmax(300px, 1fr)));
+    @include mobileXS(grid-template-columns, repeat(auto-fit, minmax(280px, 1fr)));
 }
 
 .services__item {
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(40px, 40px) minmax(260px, 327px) minmax(50px, 50px);
+    grid-template-areas: 
+    "icon headline arrow"
+    "icon descr arrow"
+    ;
+    grid-template-rows: max-content;
+    justify-content: space-between;
     align-items: center;
+    grid-column-gap: 20px;
     padding: 25px 15px 25px 25px;
     border-radius: 25px;
+    @include tabletSM-block {
+        grid-template-columns: minmax(40px, 40px) minmax(260px, 1fr) minmax(50px, 50px);
+    }
+    @include mobileXS-block {
+        grid-template-rows: auto;
+        grid-template-columns: minmax(40px, 40px);
+        grid-template-areas: 
+        "icon headline headline"
+        "descr descr descr"
+        ". arrow ."
+        ;
+        justify-content: normal;
+    }
 }
 
 .services__pic {
-    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.1);
+    grid-area: icon;
+    width: 100%;
 }
 
 .services__icon {
     display: block;
-    width: 40px;
+    width: 100%;
 }
 
-.services__text {
-    margin: 0 20px auto 25px;
+.services__headline {
+    grid-area: headline;
 }
 
 .services__descr {
-    margin-top: 25px;
+    grid-area: descr;
+    margin: 25px 0 auto 0;
+    @include mobileXS(margin, 15px 0 auto);
 }
 
 .services__arrow {
+    grid-area: arrow;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +66,11 @@
     background: var(--color-white);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    margin-left: auto;
+    @include mobileXS-block {
+        grid-column: span 3;
+        justify-self: center;
+        margin-top: 15px;
+    }
 }
 
 .services__arrow-svg {
