@@ -29,10 +29,22 @@
         left: 30px;
         bottom: 30px;
     }
+    @include mobile-block {
+        top: auto;
+        right: 15px;
+        left: 15px;
+        bottom: 30px;
+    }
+    @include mobileXS-block {
+        right: 10px;
+        left: 10px;
+        bottom: 30px;
+    }
 }
 
 .main-slider__heading {
     line-height: 1;
+    @include mobileXS(font-size, 35px);
 }
 
 .main-slider__header,
@@ -48,6 +60,7 @@
 
 .main-slider__action {
     margin-top: 35px;
+    @include mobileXS(margin-top, 25px);
 }
 
 .main-slider__pagination {

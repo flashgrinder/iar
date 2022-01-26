@@ -89,8 +89,8 @@
                 </div>
             </div>
         </div>
-        <div class="main-slider__pagination"></div>
-        <div class="main-slider__navigation">
+        <div class="main-slider__pagination hide-mobile-xs"></div>
+        <div class="main-slider__navigation hide-mobile-xs">
             <div class="main-slider__arrow main-slider__arrow--prev">
                 <svg class="main-slider__arrow-svg" width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9 1L1.68167 7.50518C0.786641 8.30076 0.786641 9.69924 1.68167 10.4948L9 17" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>

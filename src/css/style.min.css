@@ -1875,6 +1875,13 @@ button.swiper-pagination-bullet {
     display: none !important;
   }
 
+  .main-slider__info-wrapp {
+    top: auto;
+    right: 15px;
+    left: 15px;
+    bottom: 30px;
+  }
+
   .main-slider__pagination {
     right: 15px;
   }
@@ -1898,6 +1905,24 @@ button.swiper-pagination-bullet {
   .container-full {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .hide-mobile-xs {
+    display: none !important;
+  }
+
+  .main-slider__info-wrapp {
+    right: 10px;
+    left: 10px;
+    bottom: 30px;
+  }
+
+  .main-slider__heading {
+    font-size: 35px;
+  }
+
+  .main-slider__action {
+    margin-top: 25px;
   }
 
   .services__inner {
