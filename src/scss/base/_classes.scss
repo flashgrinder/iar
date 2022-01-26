@@ -129,6 +129,7 @@
 
 .title--indent {
     margin: 0 0 45px;
+    @include mobileXS(margin, 0 0 25px);
 }
 
 /* Text */

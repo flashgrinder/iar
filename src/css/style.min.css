@@ -1911,6 +1911,10 @@ button.swiper-pagination-bullet {
     display: none !important;
   }
 
+  .title--indent {
+    margin: 0 0 25px;
+  }
+
   .main-slider__info-wrapp {
     right: 10px;
     left: 10px;
@@ -1948,6 +1952,11 @@ button.swiper-pagination-bullet {
     -ms-grid-column-align: center;
         justify-self: center;
     margin-top: 15px;
+  }
+
+  .projects__items {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-auto-rows: 282px;
   }
 
   .dev-goals__items {
