@@ -178,16 +178,16 @@ function optimgBuild() {
 	return gulp.src(source.src.img)
 	.pipe(imagemin([
 		imagemin.gifsicle({interlaced: true}),
-		imagemin.mozjpeg({quality: 75, progressive: true}),
+		imagemin.mozjpeg({quality: 85, progressive: true}),
 		imgRecompress({
 			loops: 5,
-			min: 70,
-			max: 80,
+			min: 80,
+			max: 90,
 			quality:'medium'
 		}),
 		imagemin.svgo(),
 		imagemin.optipng({optimizationLevel: 3}),
-		pngquant({quality: [0.7, 0.8], speed: 5})
+		pngquant({quality: [0.8, 0.9], speed: 5})
 	],{
 		verbose: true
 	}))
