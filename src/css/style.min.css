@@ -1375,7 +1375,7 @@ button.swiper-pagination-bullet {
   display: flex;
   flex-direction: column;
   right: 50px;
-  top: 60%;
+  top: 50%;
   transform: translateY(-50%);
 }
 
