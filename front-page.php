@@ -113,86 +113,46 @@
             Услуги фонда
         </h2>
         <div class="services__inner">
-            <article class="services__item bg--gray-milk">
-                <div class="services__pic">
-                    <img src="<?php echo STANDART_DIR; ?>img/uploads/services-icon-1.svg" alt="" class="services__icon">
-                </div>
-                <h3 class="services__headline title title--small title--dark-gray title--w-normal">
-                    Организация деловых мероприятий
-                </h3>
-                <p class="services__descr text text--normal text--dark-gray-low text--w-light">
-                    Организация деловых и образовательных мероприятий по РФ под “ключ”. Семинары, конференции, деловые встречи, круглые столы в режимах оффлайн и онлайн
-                </p>
-                <a href="" class="services__arrow">
-                    <svg class="services__arrow-svg" width="22" height="12" viewBox="0 0 22 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75L1 5.25ZM21.5303 6.53033C21.8232 6.23744 21.8232 5.76256 21.5303 5.46967L16.7574 0.696701C16.4645 0.403807 15.9896 0.403807 15.6967 0.6967C15.4038 0.989594 15.4038 1.46447 15.6967 1.75736L19.9393 6L15.6967 10.2426C15.4038 10.5355 15.4038 11.0104 15.6967 11.3033C15.9896 11.5962 16.4645 11.5962 16.7574 11.3033L21.5303 6.53033ZM1 6.75L21 6.75L21 5.25L1 5.25L1 6.75Z" fill="#2F89DF"/>
-                    </svg>
-                </a>
-            </article>
-            <article class="services__item bg--gray-milk">
-                <div class="services__pic">
-                    <img src="<?php echo STANDART_DIR; ?>img/uploads/services-icon-2.svg" alt="" class="services__icon">
-                </div>
-                <h3 class="services__headline title title--small title--dark-gray title--w-normal">
-                    Экологические ивенты
-                </h3>
-                <p class="services__descr text text--normal text--dark-gray-low text--w-light">
-                    Организация экологических ивентов: акции по очистке территории, проведение экоквестов,проведение уроков, семинаров по экологии и ЦУР
-                </p>
-                <a href="" class="services__arrow">
-                    <svg class="services__arrow-svg" width="22" height="12" viewBox="0 0 22 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75L1 5.25ZM21.5303 6.53033C21.8232 6.23744 21.8232 5.76256 21.5303 5.46967L16.7574 0.696701C16.4645 0.403807 15.9896 0.403807 15.6967 0.6967C15.4038 0.989594 15.4038 1.46447 15.6967 1.75736L19.9393 6L15.6967 10.2426C15.4038 10.5355 15.4038 11.0104 15.6967 11.3033C15.9896 11.5962 16.4645 11.5962 16.7574 11.3033L21.5303 6.53033ZM1 6.75L21 6.75L21 5.25L1 5.25L1 6.75Z" fill="#2F89DF"/>
-                    </svg>
-                </a>
-            </article>
-            <article class="services__item bg--gray-milk">
-                <div class="services__pic">
-                    <img src="<?php echo STANDART_DIR; ?>img/uploads/services-icon-3.svg" alt="" class="services__icon">
-                </div>
-                <h3 class="services__headline title title--small title--dark-gray title--w-normal">
-                    Образовательный туризм
-                </h3>
-                <p class="services__descr text text--normal text--dark-gray-low text--w-light">
-                    Образовательный туризм (эковолонтерство в регионах России, технологическое предпринимательство, ЦУР)
-                </p>
-                <a href="" class="services__arrow">
-                    <svg class="services__arrow-svg" width="22" height="12" viewBox="0 0 22 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75L1 5.25ZM21.5303 6.53033C21.8232 6.23744 21.8232 5.76256 21.5303 5.46967L16.7574 0.696701C16.4645 0.403807 15.9896 0.403807 15.6967 0.6967C15.4038 0.989594 15.4038 1.46447 15.6967 1.75736L19.9393 6L15.6967 10.2426C15.4038 10.5355 15.4038 11.0104 15.6967 11.3033C15.9896 11.5962 16.4645 11.5962 16.7574 11.3033L21.5303 6.53033ZM1 6.75L21 6.75L21 5.25L1 5.25L1 6.75Z" fill="#2F89DF"/>
-                    </svg>
-                </a>
-            </article>
-            <article class="services__item bg--gray-milk">
-                <div class="services__pic">
-                    <img src="<?php echo STANDART_DIR; ?>img/uploads/services-icon-4.svg" alt="" class="services__icon">
-                </div>
-                <h3 class="services__headline title title--small title--dark-gray title--w-normal">
-                    Экологизация помещений
-                </h3>
-                <p class="services__descr text text--normal text--dark-gray-low text--w-light">
-                    Экологизация офисов
-                </p>
-                <a href="" class="services__arrow">
-                    <svg class="services__arrow-svg" width="22" height="12" viewBox="0 0 22 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75L1 5.25ZM21.5303 6.53033C21.8232 6.23744 21.8232 5.76256 21.5303 5.46967L16.7574 0.696701C16.4645 0.403807 15.9896 0.403807 15.6967 0.6967C15.4038 0.989594 15.4038 1.46447 15.6967 1.75736L19.9393 6L15.6967 10.2426C15.4038 10.5355 15.4038 11.0104 15.6967 11.3033C15.9896 11.5962 16.4645 11.5962 16.7574 11.3033L21.5303 6.53033ZM1 6.75L21 6.75L21 5.25L1 5.25L1 6.75Z" fill="#2F89DF"/>
-                    </svg>
-                </a>
-            </article>
-            <article class="services__item bg--gray-milk">
-                <div class="services__pic">
-                    <img src="<?php echo STANDART_DIR; ?>img/uploads/services-icon-5.svg" alt="" class="services__icon">
-                </div>
-                <h3 class="services__headline title title--small title--dark-gray title--w-normal">
-                    Переводы
-                </h3>
-                <p class="services__descr text text--normal text--dark-gray-low text--w-light">
-                    Устные и письменные переводы с английского, немецкого, французского языков, в том числе переводы документации. Оказываем услуги переводов для конференций, семинаров, встреч в режимах оффлайн и онлайн
-                </p>
-                <a href="" class="services__arrow">
-                    <svg class="services__arrow-svg" width="22" height="12" viewBox="0 0 22 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75L1 5.25ZM21.5303 6.53033C21.8232 6.23744 21.8232 5.76256 21.5303 5.46967L16.7574 0.696701C16.4645 0.403807 15.9896 0.403807 15.6967 0.6967C15.4038 0.989594 15.4038 1.46447 15.6967 1.75736L19.9393 6L15.6967 10.2426C15.4038 10.5355 15.4038 11.0104 15.6967 11.3033C15.9896 11.5962 16.4645 11.5962 16.7574 11.3033L21.5303 6.53033ZM1 6.75L21 6.75L21 5.25L1 5.25L1 6.75Z" fill="#2F89DF"/>
-                    </svg>
-                </a>
-            </article>
+        <?php
+
+            $args = array(
+                'post_type' => 'services',
+                'posts_per_page' => -1,
+                'orderby'     => 'date',
+                'order'       => 'DESC',
+                'suppress_filters' => true
+            );
+
+            $wp_query = new WP_Query( $args );
+
+
+            if( have_posts() ) : 
+                while( have_posts() ) : 
+                    the_post();
+            ?>
+                    <?php $get_id_post = get_the_ID(); ?>
+                    <article class="services__item bg--gray-milk">
+                        <div class="services__pic">
+                            <?php $service_icon = get_field('service_icon', $get_id_post, true); ?>
+                            <?php if( !empty( $service_icon ) ): ?>
+                                <img class="services__icon" src="<?php echo esc_url($service_icon['url']); ?>" alt="<?php echo esc_attr($service_icon['alt']); ?>" />
+                            <?php endif; ?>
+                        </div>
+                        <h3 class="services__headline title title--small title--dark-gray title--w-normal">
+                            <?php the_title(); ?>
+                        </h3>
+                        <p class="services__descr text text--normal text--dark-gray-low text--w-light">
+                            <?php the_excerpt(); ?>
+                        </p>
+                        <a href="<?php the_permalink(); ?>" class="services__arrow">
+                            <svg class="services__arrow-svg" width="22" height="12" viewBox="0 0 22 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75L1 5.25ZM21.5303 6.53033C21.8232 6.23744 21.8232 5.76256 21.5303 5.46967L16.7574 0.696701C16.4645 0.403807 15.9896 0.403807 15.6967 0.6967C15.4038 0.989594 15.4038 1.46447 15.6967 1.75736L19.9393 6L15.6967 10.2426C15.4038 10.5355 15.4038 11.0104 15.6967 11.3033C15.9896 11.5962 16.4645 11.5962 16.7574 11.3033L21.5303 6.53033ZM1 6.75L21 6.75L21 5.25L1 5.25L1 6.75Z" fill="#2F89DF"/>
+                            </svg>
+                        </a>
+                    </article>
+                <?php endwhile; ?>
+            <?php endif;?>
+            <?php wp_reset_postdata(); ?>
         </div>
     </div>
 </section>

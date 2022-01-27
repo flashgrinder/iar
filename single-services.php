@@ -1,4 +1,3 @@
-<?php /* Template Name: Шаблон - Услуга */?>
 <?php get_header(); ?>
 
 <?php the_post(); ?>

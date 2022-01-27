@@ -139,9 +139,9 @@
     "location": [
         [
             {
-                "param": "page_template",
+                "param": "post_type",
                 "operator": "==",
-                "value": "page-service.php"
+                "value": "services"
             }
         ]
     ],
@@ -154,5 +154,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1642948159
+    "modified": 1643280530
 }
