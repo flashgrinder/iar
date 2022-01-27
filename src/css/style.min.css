@@ -1813,7 +1813,7 @@ button.swiper-pagination-bullet {
   margin-top: 55px;
 }
 
-.head-screen__pic {
+.head-screen__pic--desctop {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1823,6 +1823,15 @@ button.swiper-pagination-bullet {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+.head-screen__pic--mobile {
+  margin-top: 15px;
+}
+
+.head-screen__img {
+  display: block;
+  width: 100%;
 }
 
 /* Squad */
@@ -2195,6 +2204,12 @@ button.swiper-pagination-bullet {
 
 /* MEDIA QUERIES */
 
+@media screen and (min-width: 577px) {
+  .head-screen__pic--mobile {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .dev-goals__items {
     grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
@@ -2259,6 +2274,37 @@ button.swiper-pagination-bullet {
     right: 30px;
     left: 30px;
     bottom: 30px;
+  }
+
+  .head-screen__heading {
+    font-size: calc(35px + 20 * ((100vw - 360px) / 664));
+  }
+
+  @media screen and (min-width: 1024px) {
+
+    .head-screen__heading {
+      font-size: 55px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+
+    .head-screen__heading {
+      font-size: 35px;
+    }
+  }
+
+  .head-screen__descr {
+    max-width: 70%;
+  }
+
+  .head-screen__pic--desctop {
+    bottom: 50%;
+    transform: translateY(60%);
+  }
+
+  .head-screen__img {
+    max-width: 253px;
   }
 
   .squad__items {
@@ -2379,6 +2425,15 @@ button.swiper-pagination-bullet {
     order: -1;
   }
 
+  .head-screen__body {
+    padding-top: 45px;
+    padding-bottom: 35px;
+  }
+
+  .head-screen__action {
+    margin-top: 25px;
+  }
+
   .dev-goals__items {
     grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
     grid-auto-rows: 1fr;
@@ -2477,6 +2532,19 @@ button.swiper-pagination-bullet {
   .contacts__plunk::before {
     right: -10px;
     left: -10px;
+  }
+
+  .head-screen__descr {
+    max-width: 100%;
+    margin-top: 45px;
+  }
+
+  .head-screen__pic--desctop {
+    display: none;
+  }
+
+  .head-screen__img {
+    max-width: 100%;
   }
 
   .squad__heading {

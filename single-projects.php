@@ -9,6 +9,13 @@
             <h1 class="head-screen__heading title title--huge title--white title--w-bold">
                 <?php the_title(); ?>
             </h1>
+            <div class="head-screen__pic head-screen__pic--mobile">
+                <?php 
+                    $project_img_notebook = get_field('project_img_notebook');
+                    if( !empty( $project_img_notebook ) ): ?>
+                        <img class="head-screen__img" src="<?php echo esc_url($project_img_notebook['url']); ?>" alt="<?php echo esc_attr($project_img_notebook['alt']); ?>" />
+                <?php endif; ?>
+            </div>
             <p class="head-screen__descr text text--large text--white text--w-light">
                 <?php the_field('project_descr'); ?>
             </p>
@@ -24,7 +31,7 @@
             </div>
         </div>
         <div class="head-screen__right-side">
-            <div class="head-screen__pic">
+            <div class="head-screen__pic head-screen__pic--desctop">
                 <?php 
                     $project_img_notebook = get_field('project_img_notebook');
                     if( !empty( $project_img_notebook ) ): ?>
