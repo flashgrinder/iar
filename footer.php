@@ -12,35 +12,15 @@
                     <h3 class="footer__title-col text text--big text--dark-gray text--w-regular">
                         Навигация
                     </h3>
-                    <nav class="footer__menu-nav menu">
-                        <ul class="footer__menu-list menu__list">
-                            <li class="footer__menu-item menu__item">
-                                <a href="" class="footer__menu-link menu__link">
-                                    Главная
-                                </a>
-                            </li>
-                            <li class="footer__menu-item menu__item">
-                                <a href="" class="footer__menu-link menu__link">
-                                    Услуги
-                                </a>
-                            </li>
-                            <li class="footer__menu-item menu__item">
-                                <a href="" class="footer__menu-link menu__link">
-                                    Проекты
-                                </a>
-                            </li>
-                            <li class="footer__menu-item menu__item">
-                                <a href="" class="footer__menu-link menu__link">
-                                    Команда
-                                </a>
-                            </li>
-                            <li class="footer__menu-item menu__item">
-                                <a href="" class="footer__menu-link menu__link">
-                                    Контакты
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <?php
+                        wp_nav_menu([
+                            'theme_location'  => 'footer-menu',
+                            'container'       => 'nav',
+                            'container_class' => 'footer__menu-nav menu',
+                            'menu_class'      => '',
+                            'items_wrap'      => '<ul class="%2$s menu__list footer__menu-list">%3$s</ul>'
+                        ]);
+                    ?>
                 </div>
                 <div class="footer__column footer__column--two">
                     <h3 class="footer__title-col text text--big text--dark-gray text--w-regular">

@@ -87,7 +87,16 @@
         </div>
         <div class="header__outer-menu js-menu">
             <div class="header__inner">
-                <nav class="header__menu-nav menu">
+                <?php
+                    wp_nav_menu([
+                        'theme_location'  => 'header-menu',
+                        'container'       => 'nav',
+                        'container_class' => 'header__menu-nav menu',
+                        'menu_class'      => '',
+                        'items_wrap'      => '<ul class="%2$s header__menu-list menu__list ">%3$s</ul>'
+                    ]);
+                ?>
+                <nav class="header__menu-nav menu hide">
                     <ul class="header__menu-list menu__list">
                         <li class="header__menu-item menu__item">
                             <a href="" class="header__menu-link menu__link">

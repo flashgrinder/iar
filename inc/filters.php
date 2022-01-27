@@ -5,7 +5,7 @@
 
     // Длина отрывков постов
     add_filter( 'excerpt_length', function($number) {
-        return 18;
+        return 55;
     });
 
     // Окончание отрывков постов
@@ -27,7 +27,7 @@
     // Добавляет класс пунктам меню в подвале
     add_filter( 'nav_menu_css_class', function($classes, $item, $args, $depth) {
         
-        if($args->theme_location === 'footer-menu-1' || $args->theme_location === 'footer-menu-2' || $args->theme_location === 'footer-menu-3' || $args->theme_location === 'footer-menu-4') {
+        if($args->theme_location === 'footer-menu') {
             $classes[] = 'menu__item footer__menu-item';
         }
         
@@ -49,7 +49,7 @@
     // Добавляет класс ссылкам меню в подвале
     add_filter( 'nav_menu_link_attributes', function( $atts, $item, $args ) {
         
-        if($args->theme_location === 'footer-menu-1' || $args->theme_location === 'footer-menu-2' || $args->theme_location === 'footer-menu-3' || $args->theme_location === 'footer-menu-4') {
+        if($args->theme_location === 'footer-menu') {
             $atts['class'] = 'menu__link footer__menu-link';
         }
         
@@ -75,15 +75,3 @@
         return $classes;
 
     } , 10 , 2);
-
-    // создаем новую колонку
-    add_filter( 'manage_'.'post'.'_posts_columns', 'add_views_column', 4 );
-    function add_views_column( $columns ){
-        $num = 2; // после какой по счету колонки вставлять новые
-
-        $new_columns = array(
-            'views' => 'Визиты',
-        );
-
-        return array_slice( $columns, 0, $num ) + $new_columns + array_slice( $columns, $num );
-    }
