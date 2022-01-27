@@ -23,27 +23,7 @@
             <h3 class="modal__title modal__field--anim title title--medium title--dark-gray title--w-normal center">
                 Форма обратной связи
             </h3>
-            <div role="form" class="wpcf7" id="wpcf7-f382-o1" lang="ru-RU" dir="ltr">
-                <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p><ul></ul></div>
-                <form action="/#wpcf7-f382-o1" method="post" class="modal__form wpcf7-form init" novalidate="novalidate" data-status="init">
-                    <div class="modal__field modal__field--anim">
-                        <input type="tel" class="modal__input" aria-required="true" placeholder="Укажите ваш номер телефона">
-                    </div>
-                    <div class="modal__field modal__field--anim">
-                        <input type="email" class="modal__input" aria-required="true" placeholder="Укажите ваш адрес электронной почты">
-                    </div>
-                    <div class="modal__field modal__field--anim">
-                        <input type="text" class="modal__input" aria-required="true" aria-invalid="false" placeholder="Укажите ваше имя">
-                    </div>
-                    <div class="modal__actions modal__field--anim">
-                        <input type="submit" value="Отправить" class="modal__btn button button--blue"><span class="ajax-loader"></span>
-                    </div>
-                    <div class="wpcf7-response-output" aria-hidden="true"></div>
-                    <span class="wpa_hidden_field" style="display:none;height:0;width:0;">
-                        <input type="text" name="field2423" value="89079">
-                    </span>
-                </form>
-            </div>
+            <?php echo do_shortcode('[contact-form-7 id="9" title="Контактная форма" html_class="modal__form"]'); ?>
             <div class="modal__policy text text--small text--w-light center modal__field--anim">
                 Ваши данные находятся под защитой
                 <br>
