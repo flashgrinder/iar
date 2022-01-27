@@ -13,3 +13,5 @@
     include_once(__DIR__ . '/inc/filters.php');
     /* Post Type Services */
     include_once(__DIR__ . '/inc/post-type_services.php');
+    /* Post Type Projects */
+    include_once(__DIR__ . '/inc/post-type_projects.php');

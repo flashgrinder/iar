@@ -18,7 +18,7 @@
                 </svg>
             </div>
             <div class="modal__logo modal__field--anim center">
-                <img src="img/logo-header.png" alt="Логотип" class="modal__img-logo">
+                <img src="<?php echo STANDART_DIR; ?>img/logo-header.png" alt="Логотип" class="modal__img-logo">
             </div>
             <h3 class="modal__title modal__field--anim title title--medium title--dark-gray title--w-normal center">
                 Форма обратной связи

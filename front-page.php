@@ -125,7 +125,6 @@
 
             $wp_query = new WP_Query( $args );
 
-
             if( have_posts() ) : 
                 while( have_posts() ) : 
                     the_post();
@@ -166,26 +165,34 @@
         </h2>
         <div class="projects__body">
             <div class="projects__items">
-                <a href="" class="projects__card">
-                    <div class="projects__pic">
-                        <img src="<?php echo STANDART_DIR; ?>img/projects/projects-img-1.png" alt="" class="projects__img">
-                    </div>
-                </a>
-                <a href="" class="projects__card">
-                    <div class="projects__pic">
-                        <img src="<?php echo STANDART_DIR; ?>img/projects/projects-img-2.png" alt="" class="projects__img">
-                    </div>
-                </a>
-                <a href="" class="projects__card">
-                    <div class="projects__pic">
-                        <img src="<?php echo STANDART_DIR; ?>img/projects/projects-img-3.png" alt="" class="projects__img">
-                    </div>
-                </a>
-                <a href="" class="projects__card">
-                    <div class="projects__pic">
-                        <img src="<?php echo STANDART_DIR; ?>img/projects/projects-img-4.png" alt="" class="projects__img">
-                    </div>
-                </a>
+            <?php
+
+                $args = array(
+                    'post_type' => 'projects',
+                    'posts_per_page' => -1,
+                    'orderby'     => 'date',
+                    'order'       => 'DESC',
+                    'suppress_filters' => true
+                );
+
+                $wp_query = new WP_Query( $args );
+
+                if( have_posts() ) : 
+                    while( have_posts() ) : 
+                        the_post();
+                ?>
+                <?php $get_id_post = get_the_ID(); ?>
+                    <a href="" class="projects__card">
+                        <div class="projects__pic">
+                            <?php $project_logo = get_field('project_logo', $get_id_post, true); ?>
+                            <?php if( !empty( $project_logo ) ): ?>
+                                <img class="projects__img" src="<?php echo esc_url($project_logo['url']); ?>" alt="<?php echo esc_attr($project_logo['alt']); ?>" />
+                            <?php endif; ?>
+                        </div>
+                    </a>
+                    <?php endwhile; ?>
+                <?php endif;?>
+                <?php wp_reset_postdata(); ?>
             </div>
         </div>
     </div>
