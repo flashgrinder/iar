@@ -9,6 +9,14 @@
 </head>
 <body <?php body_class('page bg--white'); ?>>
 
+    <!-- Button-to-top -->
+    <div class="button-to-top">
+        <svg class="button-to-top__svg" width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 13L10.2318 1.92186C10.6316 1.44211 11.3684 1.44211 11.7682 1.92187L21 13" stroke="#FEFEFE" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+    </div>
+    <!-- /. Button-to-top -->
+
     <!-- Header -->
     <header class="header bg--white">
         <div class="header__body container">
