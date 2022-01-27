@@ -1547,6 +1547,7 @@ button.swiper-pagination-bullet {
   border-radius: 25px;
   padding: 10px;
   text-decoration: none;
+  max-width: 282px;
 }
 
 .projects__img {
