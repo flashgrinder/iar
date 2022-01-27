@@ -9,6 +9,52 @@
 </head>
 <body <?php body_class('page bg--white'); ?>>
 
+    <!-- Modal -->
+    <div class="modal js-modal" data-modal="modal-form">
+        <div class="modal__body bg--white">
+            <div class="modal__close">
+                <svg class="modal__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L12 12M12 1L1 12" stroke="#121212" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="modal__logo modal__field--anim center">
+                <img src="img/logo-header.png" alt="Логотип" class="modal__img-logo">
+            </div>
+            <h3 class="modal__title modal__field--anim title title--medium title--dark-gray title--w-normal center">
+                Форма обратной связи
+            </h3>
+            <div role="form" class="wpcf7" id="wpcf7-f382-o1" lang="ru-RU" dir="ltr">
+                <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p><ul></ul></div>
+                <form action="/#wpcf7-f382-o1" method="post" class="modal__form wpcf7-form init" novalidate="novalidate" data-status="init">
+                    <div class="modal__field modal__field--anim">
+                        <input type="tel" class="modal__input" aria-required="true" placeholder="Укажите ваш номер телефона">
+                    </div>
+                    <div class="modal__field modal__field--anim">
+                        <input type="email" class="modal__input" aria-required="true" placeholder="Укажите ваш адрес электронной почты">
+                    </div>
+                    <div class="modal__field modal__field--anim">
+                        <input type="text" class="modal__input" aria-required="true" aria-invalid="false" placeholder="Укажите ваше имя">
+                    </div>
+                    <div class="modal__actions modal__field--anim">
+                        <input type="submit" value="Отправить" class="modal__btn button button--blue"><span class="ajax-loader"></span>
+                    </div>
+                    <div class="wpcf7-response-output" aria-hidden="true"></div>
+                    <span class="wpa_hidden_field" style="display:none;height:0;width:0;">
+                        <input type="text" name="field2423" value="89079">
+                    </span>
+                </form>
+            </div>
+            <div class="modal__policy text text--small text--w-light center modal__field--anim">
+                Ваши данные находятся под защитой
+                <br>
+                <a href="" class="modal__link-policy text text--small text--w-light center" target="_blank">
+                    Политика конфиденциальности
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- /. Modal -->
+
     <!-- Button-to-top -->
     <div class="button-to-top">
         <svg class="button-to-top__svg" width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
