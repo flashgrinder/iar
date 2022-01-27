@@ -29,7 +29,7 @@
                     </span>
                 </div>
                 <div class="service__actions">
-                    <button class="service__btn button button--blue button--sale">
+                    <button class="service__btn button button--blue button--sale" data-modal-trigger="modal-form">
                         Заказать
                     </button>
                 </div>

@@ -95,7 +95,7 @@
                         </div>
                     </address>
                     <div class="header__action hide-mobile">
-                        <a href="javascript:;" class="header__btn button button--blue">
+                        <a href="javascript:;" class="header__btn button button--blue" data-modal-trigger="modal-form">
                             Перезвоните мне
                         </a>
                     </div>
