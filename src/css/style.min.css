@@ -2380,8 +2380,8 @@ button.swiper-pagination-bullet {
   }
 
   .dev-goals__items {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
-    grid-auto-rows: 190px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    grid-auto-rows: 1fr;
   }
 
   .dev-goals__img {
@@ -2480,6 +2480,7 @@ button.swiper-pagination-bullet {
 
   .dev-goals__items {
     justify-content: center;
+    grid-auto-rows: 160px;
   }
 
   .page-404__heading,
@@ -2547,14 +2548,6 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 400px) {
   .modal__actions .wpcf7-spinner {
     margin: 0 4px;
-  }
-
-  .dev-goals__items {
-    grid-auto-rows: 160px;
-  }
-
-  .dev-goals__img {
-    max-height: 160px;
   }
 }
 
