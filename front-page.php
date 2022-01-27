@@ -5,22 +5,32 @@
 <section class="main-slider">
     <div class="main-slider__body">
         <div class="main-slider__swiper swiper-container">
+            <?php if( have_rows('main-slider') ): ?>
             <div class="main-slider__swiper-wrapper swiper-wrapper">
+                <?php while( have_rows('main-slider') ): the_row();
+
+                    $main_slider_title = get_sub_field('main-slider_title');
+                    $main_slider_descr = get_sub_field('main-slider_descr');
+                    $main_slider_img = get_sub_field('main-slider_img');
+
+                ?>
                 <div class="main-slider__swiper-slide swiper-slide">
                     <article class="main-slider__info">
                         <div class="main-slider__slide-pic">
-                            <img src="<?php echo STANDART_DIR; ?>img/uploads/main-slider-slide-1.jpg" alt="" class="main-slider__slide-img">
+                            <?php if( !empty( $main_slider_img ) ): ?>
+                                <img src="<?php echo esc_url($main_slider_img['url']); ?>" alt="<?php echo esc_attr($main_slider_img['alt']); ?>" class="main-slider__slide-img">
+                            <?php endif; ?>
                         </div>
                         <div class="main-slider__inner-info container">
                             <div class="main-slider__info-wrapp">
                                 <h2 class="main-slider__heading title title--huge title--white title--w-black title--uppercase">
-                                    Инвестиции <br> и регионы
+                                    <?php echo $main_slider_title; ?>
                                 </h2>
                                 <p class="main-slider__text text text--large text--white text--w-regular">
-                                    Фонд - это некоммерческая организация, деятельность которой направлена на всестороннее развитие общества через просвещение, работу с молодежью, воспитание новых, ответственных и развитых поколений, способных изменить мир к лучшему
+                                    <?php echo $main_slider_descr; ?>
                                 </p>
                                 <div class="main-slider__action">
-                                    <a href="javascript:;" class="main-slider__btn button button--blue button--icon " data-hystmodal="#participate">
+                                    <a href="#services" class="main-slider__btn button button--blue button--icon " data-hystmodal="#participate">
                                         Узнать подробнее 
                                         <span class="button__icon--right">
                                             <svg class="button__svg-icon" width="23" height="11" viewBox="0 0 23 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,61 +43,9 @@
                         </div>
                     </article>
                 </div>
-                <div class="main-slider__swiper-slide swiper-slide">
-                    <article class="main-slider__info">
-                        <div class="main-slider__slide-pic">
-                            <img src="<?php echo STANDART_DIR; ?>img/uploads/tmpl-2.jpg" alt="" class="main-slider__slide-img">
-                        </div>
-                        <div class="main-slider__inner-info container">
-                            <div class="main-slider__info-wrapp">
-                                <h2 class="main-slider__heading title title--huge title--white title--w-black title--uppercase">
-                                    Инвестиции <br> и регионы
-                                </h2>
-                                <p class="main-slider__text text text--large text--white text--w-regular">
-                                    Фонд - это некоммерческая организация, деятельность которой направлена на всестороннее развитие общества через просвещение, работу с молодежью, воспитание новых, ответственных и развитых поколений, способных изменить мир к лучшему
-                                </p>
-                                <div class="main-slider__action">
-                                    <a href="javascript:;" class="main-slider__btn button button--blue button--icon " data-hystmodal="#participate">
-                                        Узнать подробнее 
-                                        <span class="button__icon--right">
-                                            <svg class="button__svg-icon" width="23" height="11" viewBox="0 0 23 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M1.5 4.875C1.15482 4.875 0.875 5.15482 0.875 5.5C0.875 5.84518 1.15482 6.125 1.5 6.125V4.875ZM21.9419 5.94194C22.186 5.69786 22.186 5.30214 21.9419 5.05806L17.9645 1.08058C17.7204 0.836505 17.3247 0.836505 17.0806 1.08058C16.8365 1.32466 16.8365 1.72039 17.0806 1.96447L20.6161 5.5L17.0806 9.03553C16.8365 9.27961 16.8365 9.67534 17.0806 9.91942C17.3247 10.1635 17.7204 10.1635 17.9645 9.91942L21.9419 5.94194ZM1.5 6.125H21.5V4.875H1.5V6.125Z"/>
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="main-slider__swiper-slide swiper-slide">
-                    <article class="main-slider__info">
-                        <div class="main-slider__slide-pic">
-                            <img src="<?php echo STANDART_DIR; ?>img/uploads/tmpl-3.jpg" alt="" class="main-slider__slide-img">
-                        </div>
-                        <div class="main-slider__inner-info container">
-                            <div class="main-slider__info-wrapp">
-                                <h2 class="main-slider__heading title title--huge title--white title--w-black title--uppercase">
-                                    Инвестиции <br> и регионы
-                                </h2>
-                                <p class="main-slider__text text text--large text--white text--w-regular">
-                                    Фонд - это некоммерческая организация, деятельность которой направлена на всестороннее развитие общества через просвещение, работу с молодежью, воспитание новых, ответственных и развитых поколений, способных изменить мир к лучшему
-                                </p>
-                                <div class="main-slider__action">
-                                    <a href="javascript:;" class="main-slider__btn button button--blue button--icon " data-hystmodal="#participate">
-                                        Узнать подробнее 
-                                        <span class="button__icon--right">
-                                            <svg class="button__svg-icon" width="23" height="11" viewBox="0 0 23 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M1.5 4.875C1.15482 4.875 0.875 5.15482 0.875 5.5C0.875 5.84518 1.15482 6.125 1.5 6.125V4.875ZM21.9419 5.94194C22.186 5.69786 22.186 5.30214 21.9419 5.05806L17.9645 1.08058C17.7204 0.836505 17.3247 0.836505 17.0806 1.08058C16.8365 1.32466 16.8365 1.72039 17.0806 1.96447L20.6161 5.5L17.0806 9.03553C16.8365 9.27961 16.8365 9.67534 17.0806 9.91942C17.3247 10.1635 17.7204 10.1635 17.9645 9.91942L21.9419 5.94194ZM1.5 6.125H21.5V4.875H1.5V6.125Z"/>
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                </div>
+                <?php endwhile; ?>
             </div>
+            <?php endif; ?>
         </div>
         <div class="main-slider__pagination hide-mobile-xs"></div>
         <div class="main-slider__navigation hide-mobile-xs">
