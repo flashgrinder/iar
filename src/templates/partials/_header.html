@@ -5,11 +5,11 @@
 <header class="header bg--white">
     <div class="header__body container">
         <div class="header__top">
-            <div class="header__logo">
+            <a href="./" class="header__logo">
                 <img src="img/logo-header.png" alt="" class="header__logo-img">
-            </div>
+            </a>
             <div class="header__wrapp">
-                <address class="header__address">
+                <address class="header__address hide-mobile-xs">
                     <a href="tel:+79035859564" class="header__phone header__info text text--normal text--dark-gray text--w-thin">
                         <span class="header__icon-info">
                             <svg class="header__svg-info" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,19 +27,22 @@
                         <span class="header__text-address">Москва, ул. Тверская, д. 24</span>
                     </div>
                 </address>
-                <div class="header__action">
+                <div class="header__action hide-mobile">
                     <a href="javascript:;" class="header__btn button button--blue">
                         Перезвоните мне
                     </a>
                 </div>
+                <div class="header__burger-menu burger-menu js-burger">
+                    <span class="burger-menu__line"></span>
+                </div>
             </div>
         </div>
     </div>
-    <div class="header__outer-menu">
+    <div class="header__outer-menu js-menu">
         <div class="header__inner">
             <nav class="header__menu-nav menu">
                 <ul class="header__menu-list menu__list">
-                    <li class="header__menu-item menu__item">
+                    <li class="header__menu-item menu__item is-active">
                         <a href="" class="header__menu-link menu__link">
                             Главная
                         </a>
