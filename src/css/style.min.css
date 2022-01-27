@@ -112,11 +112,6 @@ html {
   scroll-behavior: smooth;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 img {
   max-width: 100%;
 }
@@ -923,6 +918,11 @@ button.swiper-pagination-bullet {
   position: sticky;
   top: 0;
   z-index: 5000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header.is-out {
+  transform: translateY(-100%);
 }
 
 .header__top {
