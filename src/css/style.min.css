@@ -1451,7 +1451,7 @@ button.swiper-pagination-bullet {
 
 /* Services */
 
-.service__heading {
+.services__heading {
   text-align: center;
 }
 
@@ -2426,7 +2426,7 @@ button.swiper-pagination-bullet {
     margin-top: 25px;
   }
 
-  .service__heading {
+  .services__heading {
     text-align: left;
   }
 
