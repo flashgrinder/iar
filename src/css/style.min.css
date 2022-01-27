@@ -2387,6 +2387,11 @@ button.swiper-pagination-bullet {
   .dev-goals__img {
     max-height: 190px;
   }
+
+  .our-mission__inner {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 576px) {

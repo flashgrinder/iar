@@ -3,6 +3,9 @@
     grid-template-columns: minmax(320px, 484px) minmax(400px, 682px);
     grid-gap: 30px;
     align-items: center;
+    @include mobile-block {
+        grid-template-columns: 1fr;
+    }
 }
 
 .our-mission__img {
