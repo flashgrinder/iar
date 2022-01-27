@@ -107,7 +107,7 @@
 <!-- /. Main-slider -->
 
 <!-- Services -->
-<section class="services bg--white block-padding">
+<section class="services bg--white block-padding" id="services">
     <div class="services__body container">
         <h2 class="services__heading title title--big title--dark-gray title--w-normal title--uppercase title--indent">
             Услуги фонда
@@ -199,7 +199,7 @@
 <!-- /. Services -->
 
 <!-- Projects -->
-<section class="projects bg--white block-padding">
+<section class="projects bg--white block-padding" id="projects">
     <div class="projects__container container">
         <h2 class="projects__heading title title--big title--dark-gray title--w-normal title--uppercase title--indent">
             Проекты
@@ -238,7 +238,7 @@
 <!-- /. Projects -->
 
 <!-- Team -->
-<section class="team bg--white block-padding">
+<section class="team bg--white block-padding" id="team">
     <div class="team__body container">
         <h2 class="team__heading title title--big title--dark-gray title--w-normal title--uppercase title--indent">
             Команда
@@ -373,7 +373,7 @@
 <!-- /. Team -->
 
 <!-- Contacts -->
-<section class="contacts bg--white block-padding">
+<section class="contacts bg--white block-padding" id="contacts">
     <div class="contacts__body">
         <div class="contacts__outer">
             <div class="contacts__inner container">
