@@ -140,7 +140,7 @@
                         the_post();
                 ?>
                 <?php $get_id_post = get_the_ID(); ?>
-                    <a href="" class="projects__card">
+                    <a href="<?php the_permalink(); ?>" class="projects__card">
                         <div class="projects__pic">
                             <?php $project_logo = get_field('project_logo', $get_id_post, true); ?>
                             <?php if( !empty( $project_logo ) ): ?>
