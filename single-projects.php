@@ -77,6 +77,11 @@
                             <?php endwhile; ?>
                         </div>
                     <?php endif; ?>
+                    <div class="squad__action center">
+                        <a href="javascript:;" class="squad__btn button button--blue" data-modal-trigger="modal-form">
+                            Начать сотрудничество
+                        </a>
+                    </div>
                 </div>
             </section>
             <!-- /. Squad -->
