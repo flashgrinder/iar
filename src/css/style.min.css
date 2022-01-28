@@ -289,6 +289,24 @@ img {
   }
 }
 
+.title--av-big {
+  font-size: calc(24px + 16 * ((100vw - 360px) / 1080));
+}
+
+@media screen and (min-width: 1440px) {
+
+  .title--av-big {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .title--av-big {
+    font-size: 24px;
+  }
+}
+
 .title--large {
   font-size: calc(20px + 6 * ((100vw - 1024px) / 416));
 }
@@ -1687,8 +1705,8 @@ button.swiper-pagination-bullet {
 .service__inner {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(400px, 518px) 25px minmax(400px, 540px);
-  grid-template-columns: minmax(400px, 518px) minmax(400px, 540px);
+  -ms-grid-columns: minmax(400px, 600px) 25px minmax(400px, 540px);
+  grid-template-columns: minmax(400px, 600px) minmax(400px, 540px);
   grid-gap: 25px;
   justify-content: space-between;
 }
@@ -1705,8 +1723,8 @@ button.swiper-pagination-bullet {
   display: -ms-grid;
   display: grid;
   align-items: center;
-  -ms-grid-columns: minmax(60px, 130px) 20px minmax(200px, 370px);
-  grid-template-columns: minmax(60px, 130px) minmax(200px, 370px);
+  -ms-grid-columns: minmax(50px, 130px) 20px minmax(210px, 1fr);
+  grid-template-columns: minmax(50px, 130px) minmax(210px, 1fr);
   grid-gap: 20px;
 }
 

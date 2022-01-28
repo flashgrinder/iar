@@ -15,7 +15,7 @@
                             <img class="service__icon" src="<?php echo esc_url($service_icon['url']); ?>" alt="<?php echo esc_attr($service_icon['alt']); ?>" />
                     <?php endif; ?>
                     </div>
-                    <h1 class="service__title title title--big title--dark-gray title--uppercase">
+                    <h1 class="service__title title title--av-big title--dark-gray title--uppercase">
                         <?php the_title(); ?>
                     </h1>
                 </div>
