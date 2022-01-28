@@ -19,6 +19,40 @@
             "endpoint": 0
         },
         {
+            "key": "field_61f3f01088ca6",
+            "label": "Цвет заголовка",
+            "name": "project_title-color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#ffffff",
+            "enable_opacity": 1,
+            "return_format": "string"
+        },
+        {
+            "key": "field_61f3f04488ca7",
+            "label": "Цвет описания",
+            "name": "project_descr-color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#ffffff",
+            "enable_opacity": 1,
+            "return_format": "string"
+        },
+        {
             "key": "field_61f2844bf6ff0",
             "label": "Фоновое изображение",
             "name": "project_img_site",
@@ -399,5 +433,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1643287382
+    "modified": 1643376749
 }

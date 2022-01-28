@@ -6,7 +6,7 @@
 <section class="head-screen" <?php $project_img_site = get_field('project_img_site'); if( !empty( $project_img_site ) ): ?> style="background-image: url('<?php echo esc_url($project_img_site['url']); ?>');" <?php endif; ?>>
     <div class="head-screen__body container">
         <div class="head-screen__left-side">
-            <h1 class="head-screen__heading title title--huge title--white title--w-bold">
+            <h1 class="head-screen__heading title title--huge title--white title--w-bold" style="color:<?php the_field('project_title-color'); ?>;">
                 <?php the_title(); ?>
             </h1>
             <div class="head-screen__pic head-screen__pic--mobile">
@@ -16,7 +16,7 @@
                         <img class="head-screen__img" src="<?php echo esc_url($project_img_notebook['url']); ?>" alt="<?php echo esc_attr($project_img_notebook['alt']); ?>" />
                 <?php endif; ?>
             </div>
-            <p class="head-screen__descr text text--large text--white text--w-light">
+            <p class="head-screen__descr text text--large text--white text--w-light" style="color:<?php the_field('project_descr-color'); ?>;">
                 <?php the_field('project_descr'); ?>
             </p>
             <div class="head-screen__action">
