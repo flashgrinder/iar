@@ -1465,8 +1465,8 @@ button.swiper-pagination-bullet {
 .services__item {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(40px, 40px) 20px minmax(260px, 327px) 20px minmax(50px, 50px);
-  grid-template-columns: minmax(40px, 40px) minmax(260px, 327px) minmax(50px, 50px);
+  -ms-grid-columns: minmax(40px, 50px) 20px minmax(260px, 327px) 20px minmax(50px, 50px);
+  grid-template-columns: minmax(40px, 50px) minmax(260px, 327px) minmax(50px, 50px);
       grid-template-areas: "icon headline arrow" "icon descr arrow";
   -ms-grid-rows: max-content;
   grid-template-rows: -webkit-max-content;
