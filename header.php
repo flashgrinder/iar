@@ -96,35 +96,6 @@
                         'items_wrap'      => '<ul class="%2$s header__menu-list menu__list ">%3$s</ul>'
                     ]);
                 ?>
-                <nav class="header__menu-nav menu hide">
-                    <ul class="header__menu-list menu__list">
-                        <li class="header__menu-item menu__item">
-                            <a href="" class="header__menu-link menu__link">
-                                Главная
-                            </a>
-                        </li>
-                        <li class="header__menu-item menu__item">
-                            <a href="" class="header__menu-link menu__link">
-                                Услуги
-                            </a>
-                        </li>
-                        <li class="header__menu-item menu__item">
-                            <a href="" class="header__menu-link menu__link">
-                                Проекты
-                            </a>
-                        </li>
-                        <li class="header__menu-item menu__item">
-                            <a href="" class="header__menu-link menu__link">
-                                Команда
-                            </a>
-                        </li>
-                        <li class="header__menu-item menu__item">
-                            <a href="" class="header__menu-link menu__link">
-                                Контакты
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
         </div>
     </header>
