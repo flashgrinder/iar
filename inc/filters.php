@@ -65,13 +65,13 @@
 
     }, 10, 3 );
 
-    add_filter('nav_menu_css_class' , function($classes, $item) {
+    // add_filter('nav_menu_css_class' , function($classes, $item) {
 
-        if ( in_array('current-menu-item', $classes) || $args->theme_location === 'header-menu' ){
+    //     if ( in_array('current-menu-item', $classes) || $args->theme_location === 'header-menu' ){
 
-            $classes[] = 'is-active ';
+    //         $classes[] = 'is-active ';
 
-        }
-        return $classes;
+    //     }
+    //     return $classes;
 
-    } , 10 , 2);
+    // } , 10 , 2);
