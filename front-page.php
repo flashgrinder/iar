@@ -244,36 +244,6 @@
             </article>
             <article class="team__card">
                 <div class="team__pic-photo">
-                    <img src="<?php echo STANDART_DIR; ?>img/team/team-photo-8.png" alt="" class="team__photo">
-                </div>
-                <div class="team__inner">
-                    <div class="team__text">
-                        <h4 class="team__name text text--normal text--white text--w-medium">
-                            Миниханова Диана
-                        </h4>
-                        <div class="team__descr text text--small text--white text--w-light">
-                            Руководитель проекта ECOfriends
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article class="team__card">
-                <div class="team__pic-photo">
-                    <img src="<?php echo STANDART_DIR; ?>img/team/team-photo-6.png" alt="" class="team__photo">
-                </div>
-                <div class="team__inner">
-                    <div class="team__text">
-                        <h4 class="team__name text text--normal text--white text--w-medium">
-                            Кровякова Полина
-                        </h4>
-                        <div class="team__descr text text--small text--white text--w-light">
-                            Ведущий специалист по связям с общественностью
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article class="team__card">
-                <div class="team__pic-photo">
                     <img src="<?php echo STANDART_DIR; ?>img/team/team-photo-3.png" alt="" class="team__photo">
                 </div>
                 <div class="team__inner">
@@ -287,6 +257,36 @@
                     </div>
                 </div>
             </article>   
+            <article class="team__card">
+                <div class="team__pic-photo">
+                    <img src="<?php echo STANDART_DIR; ?>img/team/team-photo-6.png" alt="" class="team__photo">
+                </div>
+                <div class="team__inner">
+                    <div class="team__text">
+                        <h4 class="team__name text text--normal text--white text--w-medium">
+                            Кровякова Полина
+                        </h4>
+                        <div class="team__descr text text--small text--white text--w-light">
+                            Руководитель проекта ECOfriends
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="team__card">
+                <div class="team__pic-photo">
+                    <img src="<?php echo STANDART_DIR; ?>img/team/team-photo-8.png" alt="" class="team__photo">
+                </div>
+                <div class="team__inner">
+                    <div class="team__text">
+                        <h4 class="team__name text text--normal text--white text--w-medium">
+                            Миниханова Диана
+                        </h4>
+                        <div class="team__descr text text--small text--white text--w-light">
+                            Эксперт проекта ECOfriends
+                        </div>
+                    </div>
+                </div>
+            </article>
         </div>
     </div>
 </section>
