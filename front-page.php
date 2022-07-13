@@ -339,7 +339,7 @@
                             </span>
                             <span class="contacts__text">+7-499-450-60-70</span>
                         </a>
-                        <a href="mailto:Inregions.com@gmail.com" class="contacts__mail contacts__info text text--large text--dark-gray text--w-light">
+                        <a href="mailto:o.gaidukova@inregions.com" class="contacts__mail contacts__info text text--large text--dark-gray text--w-light">
                             <span class="contacts__icon">
                                 <svg class="contacts__svg-icon" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g filter="url(#filter0_b_134_27)">
@@ -362,7 +362,7 @@
                                     </defs>
                                 </svg>
                             </span>
-                            <span class="contacts__text">Inregions.com@gmail.com</span>
+                            <span class="contacts__text">o.gaidukova@inregions.com</span>
                         </a>
                         <div class="contacts__position contacts__info text text--large text--dark-gray text--w-light">
                             <span class="contacts__icon">
@@ -386,7 +386,7 @@
                                     </defs>
                                 </svg>
                             </span>
-                            <span class="contacts__text">г. Москва, Зубовский бульвар, дом 35, стр 3</span>
+                            <span class="contacts__text">Москва, Бережковская набережная, д. 24, стр. 1</span>
                         </div>
                     </address>
                     <div class="contacts__action">
@@ -400,7 +400,7 @@
                 </div>
             </div>
             <div class="contacts__map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d794.1614147864339!2d37.58625220469051!3d55.737172820178245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ba50034354f%3A0x510622b3f7f0e87e!2z0JfRg9Cx0L7QstGB0LrQuNC5INCxLdGALCAzNSDRgdGC0YDQvtC10L3QuNC1IDMsINCc0L7RgdC60LLQsCwgMTE5MDIx!5e0!3m2!1sru!2sru!4v1645532260022!5m2!1sru!2sru" width="100%" height="555" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.2584514760792!2d37.551817954951886!3d55.73129559620953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b9307ddd69f%3A0xb9eb2b486f314e4a!2z0JHQtdGA0LXQttC60L7QstGB0LrQsNGPINC90LDQsS4sIDI0LCDQnNC-0YHQutCy0LAsIDEyMTA1OQ!5e0!3m2!1sru!2sru!4v1657712172157!5m2!1sru!2sru" width="100%" height="555" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
