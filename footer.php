@@ -27,13 +27,13 @@
                         Контакты
                     </h3>
                     <address class="footer__address">
-                        <a href="tel:+79035859564" class="footer__phone footer__info text text--normal text--dark-gray text--w-thin">
+                        <a href="tel:+74994506070" class="footer__phone footer__info text text--normal text--dark-gray text--w-thin">
                             <span class="footer__icon-info">
                                 <svg class="footer__svg-info" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M2.21222 4.76105C3.09222 6.4905 4.51 7.90216 6.23944 8.78827L7.58389 7.44383C7.74889 7.27883 7.99333 7.22383 8.20722 7.29716C8.89167 7.52327 9.63111 7.6455 10.3889 7.6455C10.725 7.6455 11 7.9205 11 8.25661V10.3894C11 10.7255 10.725 11.0005 10.3889 11.0005C4.65055 11.0005 0 6.34994 0 0.611607C0 0.275496 0.275 0.000495872 0.611111 0.000495872H2.75C3.08611 0.000495872 3.36111 0.275496 3.36111 0.611607C3.36111 1.3755 3.48333 2.10883 3.70944 2.79327C3.77667 3.00716 3.72778 3.2455 3.55667 3.41661L2.21222 4.76105ZM10.4867 0.422163L10.0528 -0.00561523L6.11111 3.84439V1.22272H5.5V4.88939H9.16667V4.27827H6.63056L10.4867 0.422163Z" fill="#555555"/>
                                 </svg>
                             </span>
-                            <span class="footer__text-address">+7-903-585-95-64</span>
+                            <span class="footer__text-address">+7-499-450-60-70</span>
                         </a>
                         <div class="footer__mail footer__info text text--normal text--dark-gray text--w-thin">
                             <span class="footer__icon-info">

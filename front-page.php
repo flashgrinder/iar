@@ -321,7 +321,7 @@
                         Контакты
                     </h2>
                     <address class="contacts__address">
-                        <a href="tel:+79035859564" class="contacts__phone contacts__info text text--large text--dark-gray text--w-light">
+                        <a href="tel:+74994506070" class="contacts__phone contacts__info text text--large text--dark-gray text--w-light">
                             <span class="contacts__icon">
                                 <svg class="contacts__svg-icon" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_134_35)">
@@ -337,7 +337,7 @@
                                     </defs>
                                 </svg>
                             </span>
-                            <span class="contacts__text">+7-903-585-95-64</span>
+                            <span class="contacts__text">+7-499-450-60-70</span>
                         </a>
                         <a href="mailto:Inregions.com@gmail.com" class="contacts__mail contacts__info text text--large text--dark-gray text--w-light">
                             <span class="contacts__icon">
