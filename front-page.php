@@ -390,7 +390,7 @@
                         </div>
                     </address>
                     <div class="contacts__action">
-                        <a href="javascript:;" class="contacts__button button button--blue" data-modal-trigger="modal-form">
+                        <a href="javascript:;" class="contacts__button button button--blue hide" data-modal-trigger="modal-form">
                             Перезвоните мне
                         </a>
                         <a href="javascript:;" class="contacts__button button button--transparent" data-modal-trigger="modal-form">
