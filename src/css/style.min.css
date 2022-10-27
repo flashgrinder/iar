@@ -97,6 +97,7 @@
   --color-white: #FFFFFF;
   --color-gray-milk: rgba(245, 245, 245, 1);
   --color-dark-gray: #606060;
+  --color-black-gray: #202020;
   --color-dark-gray-low: #555555;
   --color-yellow: #EEFF00;
   --color-invalid: #e61d1d;
@@ -2209,6 +2210,32 @@ button.swiper-pagination-bullet {
 
 .footer__icon-info {
   margin-right: 10px;
+}
+
+/* Devsite */
+
+.devsite {
+  padding: 15px;
+  background: #FFFFFF;
+}
+
+.devsite__outer {
+  text-align: center;
+}
+
+.devsite__link {
+  display: inline-flex;
+  align-items: center;
+  grid-gap: 20px;
+  text-decoration: none;
+  color: #202020;
+  font-size: 12px;
+}
+
+.devsite__logo,
+.devsite__logo-img {
+  display: block;
+  max-width: 30px;
 }
 
 /* ANOTHER MODULES */
