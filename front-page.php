@@ -386,7 +386,7 @@
                                     </defs>
                                 </svg>
                             </span>
-                            <span class="contacts__text">Москва, Бережковская набережная, д. 24, стр. 1</span>
+                            <span class="contacts__text">Москва, Бережковская набережная, д. 20, стр. 9</span>
                         </div>
                     </address>
                     <div class="contacts__action">
@@ -400,7 +400,7 @@
                 </div>
             </div>
             <div class="contacts__map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.2584514760792!2d37.551817954951886!3d55.73129559620953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b9307ddd69f%3A0xb9eb2b486f314e4a!2z0JHQtdGA0LXQttC60L7QstGB0LrQsNGPINC90LDQsS4sIDI0LCDQnNC-0YHQutCy0LAsIDEyMTA1OQ!5e0!3m2!1sru!2sru!4v1657712172157!5m2!1sru!2sru" width="100%" height="555" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1588.5079835961876!2d37.55068296852606!3d55.73262288078129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b93392cd0f1%3A0x9a94ed9d66bf5819!2z0JHQtdGA0LXQttC60L7QstGB0LrQsNGPINC90LDQsS4sIDIwINGB0YLRgNC-0LXQvdC40LUgOSwg0JzQvtGB0LrQstCwLCAxMjEwNTk!5e0!3m2!1sru!2sru!4v1675060723440!5m2!1sru!2sru" width="100%" height="555" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
