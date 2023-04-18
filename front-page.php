@@ -279,10 +279,10 @@
                 <div class="team__inner">
                     <div class="team__text">
                         <h4 class="team__name text text--normal text--white text--w-medium">
-                            Миниханова Диана
+                            Сафронова Юстина
                         </h4>
                         <div class="team__descr text text--small text--white text--w-light">
-                            Эксперт проекта ECOfriends
+                            Менеджер проекта ECOfriends
                         </div>
                     </div>
                 </div>
